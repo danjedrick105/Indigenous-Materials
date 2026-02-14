@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    background-color: rgb(160, 137, 99);
 }
 
 header {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
+    background-color: rgb(219, 219, 219);
     padding: 40px;
     text-align: center;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ nav li {
 }
 
 nav a {
-    color: #000000;
+    color: #706D54;
     text-decoration: none;
     font-size: 1.25rem;
 }

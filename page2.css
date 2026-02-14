@@ -1,0 +1,52 @@
+section.a h1 {
+padding-left: 5%;
+color: #DBDBDB;
+}
+
+section.a p {
+    text-align: justify;
+    padding-left: 7%;
+    padding-right: 5%;
+    color: #DBDBDB;
+    text-indent: 7%;
+}
+
+section.b h1 {
+    text-align: center;
+    color: #DBDBDB;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.card {
+    width: 325px;
+    background-color: #DBDBDB;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    margin: 3%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    text-align: center;
+    color: #706D54;
+}
+
+.card p {
+    margin-left: 3%;
+    margin-right: 0.6%;
+    color: #706D54;
+}
+
+
+
