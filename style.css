@@ -1,14 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(160, 137, 99);
-}
+    background-color: rgb(160, 137, 99);}
 
 header {
     background-color: rgb(219, 219, 219);
     padding: 40px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+nav a:hover {
+    background-color: #706D54;
+    color: #dbdbdb;
+    border-radius: 3px;
+    transition-duration: 0.4s;
 }
 
 nav ul {
@@ -26,6 +32,23 @@ nav li {
 nav a {
     color: #706D54;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 20px;
+    padding: 6px;
 }
 
+@media (max-width: 360px) {
+    body {
+        font-size: 3px;
+    }
+    .section {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .header {
+        padding: 0.5rem;
+    }
+    .header, .nav_a {
+        size: 0.5rem;
+        padding: 0.4rem 0.1rem 0.4rem 0.1rem;
+    }
+}

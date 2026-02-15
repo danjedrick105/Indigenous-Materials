@@ -1,6 +1,7 @@
 section.a h1 {
 padding-left: 5%;
 color: #DBDBDB;
+font-size: 60px;
 }
 
 section.a p {
@@ -9,11 +10,13 @@ section.a p {
     padding-right: 5%;
     color: #DBDBDB;
     text-indent: 7%;
+    font-size: 1.1rem;
 }
 
 section.b h1 {
     text-align: center;
     color: #DBDBDB;
+    font-size: 2rem;
 }
 
 .card-container {
@@ -28,8 +31,9 @@ section.b h1 {
     background-color: #DBDBDB;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
-    margin: 3%;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.1);
+    margin:2%;
+    padding-bottom: 1%; 
 }
 
 .card img {
@@ -40,13 +44,41 @@ section.b h1 {
 .card h3 {
     text-align: center;
     color: #706D54;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .card p {
     margin-left: 3%;
-    margin-right: 0.6%;
+    margin-right: 3%;
     color: #706D54;
+    text-align: center;
 }
 
+.card img:hover {
+    opacity: 0.8;   
+    transition-duration: 0.3s;
+}
 
+.button {
+background-color: #706D54;
+border-radius: 7px;
+border: none;
+color: #DBDBDB;
+padding: 15px 32px;
+align-items: center;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+margin-left: 30%;
+transition-duration: 0.5s;
+cursor: pointer;
+}
+
+.button:hover {
+    background-color: #C9B194;
+    color: #706D54;
+}
 
