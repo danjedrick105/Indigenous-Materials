@@ -1,12 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DBDBDB;
+}
+
+header {
+    background-color: #A08963;
+    padding: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+nav a {
+    color: #DBDBDB;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 6px;
+}
+
 section.a h1 {
     padding-left: 5%;
-color: #DBDBDB;
+color: #706D54;
 font-size: 40px;
 }
 
 section.a h3 {
     padding-left: 7%;
-    color: #DBDBDB;
+    color: #706D54;
     font-size: 2.1rem;
 }
 
@@ -14,7 +47,7 @@ section.a p {
     margin-top: -5%;
     text-align: justify;
     padding: 7%;
-    color: #DBDBDB;
+    color: #706D54;
     text-indent: 10%;
     font-size: 120%;
 }
@@ -35,7 +68,7 @@ section.a img:hover {
 section.b h3 {
     margin-top: 5%;
     text-align: center;
-    color: #DBDBDB;
+    color: #706D54;
     font-size: 40px;
     margin-top: -5%;
 }

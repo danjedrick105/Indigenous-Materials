@@ -1,9 +1,63 @@
+body {
+    font-family: sans-serif, arial;
+}
+
 video {
     width: 100%;
     height: auto;
 }
 
-h1 {
-    margin-left: 30px;
-    color: white;
+section {
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+section.a h2 {
+    margin-left: 30px;
+    color: #dbdbdb;
+    font-size: 2rem;
+}
+
+section.a p {
+    color: #dbdbdb;
+    font-size: 1.1rem;
+    text-indent: 5%;
+    text-align: justify;
+}
+
+.home {
+    border-radius: 25px;
+    margin-top: 8%;
+    background-color: #706D54;
+    padding: 3%;
+}
+
+.history {
+    border-radius: 25px;
+    margin-top: 8%;
+    padding: 3%;
+    background-color: #706D54;
+}
+
+.unique {
+    border-radius: 25px;
+    margin-top: 8%;
+    padding:3%;
+    background-color: #706D54;
+}
+
+.present {
+    border-radius: 25px;
+    margin-top: 8%;
+    padding: 3%;
+    background-color: #706D54;
+}
+
+.conclusion {
+    border-radius: 25px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding: 3%;
+    background-color: #706D54;
+}
+
