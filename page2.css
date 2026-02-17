@@ -1,7 +1,7 @@
 section.a h1 {
 padding-left: 5%;
 color: #DBDBDB;
-font-size: 60px;
+font-size: 5vw;
 }
 
 section.a p {
@@ -10,13 +10,13 @@ section.a p {
     padding-right: 5%;
     color: #DBDBDB;
     text-indent: 7%;
-    font-size: 1.1rem;
+    font-size: 2vw;
 }
 
 section.b h1 {
     text-align: center;
     color: #DBDBDB;
-    font-size: 2rem;
+    font-size: 4vw;
 }
 
 .card-container {
