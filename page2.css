@@ -1,5 +1,7 @@
 section.a h1 {
 padding-left: 5%;
+padding-top: 4%;
+padding-bottom: 2%;
 color: #DBDBDB;
 font-size: 5vw;
 }
@@ -8,6 +10,7 @@ section.a p {
     text-align: justify;
     padding-left: 7%;
     padding-right: 5%;
+    padding-bottom: 4%;
     color: #DBDBDB;
     text-indent: 7%;
     font-size: 2vw;
