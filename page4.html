@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="page4.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Rattan</title>
 </head>
 <body>
         <nav>
-            <div class="logo"><h1><a href="index.html"> TPIMA </a></h1></div>
-            <ul id="menuList">
-                <li><a href="page2.html">Coco Lumber </a></li>
-                <li><a href="page3.html">Capiz Shell</a></li>
-                <li><a href=""> Anahaw Leaf</a></li>
-                <li><a href=""> Clay And Teracotta </a></li> 
-            </ul>
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-            </div>
-        </nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
+            <li><a href="page2.html"> Coco Lumber </a></li>
+            <li><a href="page3.html"> Capiz  Shell </a></li>
+            <li><a href="page4.html"> Rattan</a></li>
+            <li><a href="page2.html"> Anahaw Leaf</a></li>
+            <li><a href="page3.html"> Teracotta</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html"> TPIMA </a></li>
+            <li class="hideonMobile"><a href="page2.html"> Coco Lumber </a></li>
+            <li class="hideonMobile"><a href="page3.html"> Capiz  Shell </a></li>
+            <li class="hideonMobile"><a href="page4.html"> Rattan</a></li>
+            <li class="hideonMobile"><a href="page2.html"> Anahaw Leaf</a></li>
+            <li class="hideonMobile"><a href="page3.html"> Teracotta</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
 <main>
     <section class="a">
         <h1> Rattan </h1>
@@ -76,6 +86,26 @@
                     material that continues to evolve while remaining deeply rooted in 
                     Philippine culture and tradition.</p>
     </section>
+
+    <div  class="card-container">
+        <div class="card">
+            <img src="rattantype.jpg">
+            <div class="card-content">
+                <h3>Types of Rattan</h3>
+                <p> There are 5 different types of Rattan. Natural Rattan, Treated Rattan,
+                    Skin Rattan, Core Rattan, and lastly Manufactured Rattan.</p>
+                <a href="rattan1.html" class="button"> Read More </a>
+            </div>
+    </div>
+     <div class="card">
+            <img src="rattanuses.jpg">
+            <div class="card-content">
+                <h3>Uses And Application </h3>
+                <p> There are 6 Uses and Application of Rattan. Furniture, Interior 
+                    Design, Handicrafts, Lighting, Outdoor Use, and Cultural Use. </p>
+                <a href="rattan2.html" class="button"> Read More </a>
+            </div>
+        </div>
 
 
 
