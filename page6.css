@@ -1,0 +1,428 @@
+section.a{
+    margin: 3%;
+}
+
+section.a img {
+    float: inline-start;
+    margin: 0 auto;
+    padding-right: 1%;
+    width: 30%;
+}
+
+section.a h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 2%;
+    color: #dbdbdb;
+}
+
+section.a p{
+    padding-right: 1.5%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    color: #dbdbdb;
+}
+
+#more {display: none;}
+
+button {
+    padding: 1%;
+    cursor:pointer;
+    border: none; 
+    background-color: #dbdbdb;
+    color: #706D54; 
+    transition: 1s; 
+}
+
+button:hover {
+    text-decoration: bold 3px;
+    color: black;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.518);
+}
+
+@media(max-width:711px){
+    section.a h2{
+        font-size: 25px;
+    }
+    section.a img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    section.a p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:361px){
+    section.a h2{
+        font-size: 20px;
+    }
+    section.a img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    section.a p{
+        font-size: 12px;
+    }
+}
+
+section.b{
+    background: url(raffiatype1.jpg);
+    backdrop-filter: blur(rgba(0, 0, 0, 0.559));
+    color: #dbdbdb;
+}
+
+section.b h2{
+    font-size: 30px;
+    text-indent: 30px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.b h3{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.b p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-indent: 50px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.c{
+    background-color: #dbdbdb;
+    color: #706D54;
+}
+
+section.c h3{
+    font-size: 25px;
+    padding: 2% 10%;
+}
+
+section.c p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-indent: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section.c img{
+    float: right;
+    width: 38%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section.d{
+    background-color: #A08963;
+    color: #dbdbdb;
+}
+
+section.d h3{
+    font-size: 25px;
+    padding: 2% 10%;
+}
+
+section.d p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-indent: 50px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+section.d img{
+    float: left;
+    width: 38%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section.e{
+    background-color: #dbdbdb;
+    color: #706D54;
+}
+
+section.e h3{
+    font-size: 25px;
+    padding: 2% 10%;
+}
+
+section.e p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-indent: 50px;
+    padding-left: 5%;
+    padding-left: 5%;
+}
+
+section.e img{
+    float: right;
+    width: 30%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section.f{
+    background: url(raffiatype1.jpg);
+    backdrop-filter: blur(rgba(0, 0, 0, 0.559));
+    color: #dbdbdb;
+}
+
+section.f h3{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.f p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-indent: 50px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media(max-width:711px){
+    section.b, .c, .d, .e, .f h2{
+        font-size: 25px;
+    }
+    section.b, .c, .d, .e, .f h3{
+        font-size: 20px;
+    }
+    section.b, .c, .d, .e, .f img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section.b, .c, .d, .e, .f p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media(max-width:361px){
+    section.b, .c, .d, .e, .f h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    section.b, .c, .d, .e, .f h3{
+        font-size: 10px;
+    }
+    section.b, .c, .d, .e, .f img {
+        float: none;
+        display: block;
+    }
+    section.b, .c, .d, .e, .f p{
+        font-size: 7px;
+    }
+}
+
+section.g{
+    padding-top: 1%;
+    padding-bottom: 3%;
+    background-color: #dbdbdb92;
+    backdrop-filter: blur(7px);
+}
+
+h2{
+    text-align: center;
+    padding-top: 1%;
+    color: #dbdbdb;
+    font-size: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  flex: 1 1 33.3333%;
+  padding-left: 15px;
+  padding: 1%;
+  padding-right: 15px;
+  color: #dbdbdb;
+  box-sizing: border-box;
+}
+
+.column h3{
+    text-align: center;
+    padding: 4%;
+}
+
+.column p{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+@media(max-width:931px){
+    h3{
+        font-size: 25px;
+    }
+    .column{
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:751px){
+    h2 {
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .column {
+    flex: 0 0 50%;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
+@media (max-width: 643px) {
+  h2 {
+        font-size: 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .column {
+    flex: 0 0 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 524px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 0 0 100%;
+    padding: 15px;
+  }
+
+  .column h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .column p {
+    font-size: 14px;
+    text-indent: 0; 
+    text-align: justify;
+  }
+}
+
+* {box-sizing: border-box}
+body { margin:0}
+.mySlides {display: none}
+img {
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media only screen and (max-width: 300px) {
+  section.a p {font-size: 11px}
+  section.a img {width: 80%;}
+}

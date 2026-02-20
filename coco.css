@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #A08963;
-    padding: 5vw;
+    padding: 2vw;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -27,7 +27,7 @@ nav li {
 nav a {
     color: #DBDBDB;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 6px;
 }
 
